@@ -1,4 +1,4 @@
-
+//this code Beats 85.57% of users with Java
 class Solution {
     public int mostWordsFound(String[] sentences) {
 
