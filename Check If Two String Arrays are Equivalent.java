@@ -1,4 +1,5 @@
 //this code Beats 66.99% of users with Java
+
 class Solution {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
        String stringWord1="";
