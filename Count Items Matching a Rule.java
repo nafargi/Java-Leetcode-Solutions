@@ -8,7 +8,6 @@ class Solution {
             else if(ruleKey.equals("color") && ruleValue.equals(item.get(1))){
               counter++;
             }
-                
             else if(ruleKey.equals("name") && ruleValue.equals(item.get(2))){
               counter++;
             }  
