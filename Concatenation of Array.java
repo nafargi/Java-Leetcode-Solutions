@@ -6,7 +6,6 @@ class Solution {
             if(i<n){
                ans[i]=nums[i];
             }
-                
             else{
               ans[i]=nums[i-n] ;
             }
