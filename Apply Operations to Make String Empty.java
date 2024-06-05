@@ -2,8 +2,7 @@ class Solution {
   public String lastNonEmptyString(String s) {
     StringBuilder sb = new StringBuilder();
     int[] count = new int[26];
-11111
-    
+1111
     for (final char c : s.toCharArray())
       ++count[c - 'a'];
 
