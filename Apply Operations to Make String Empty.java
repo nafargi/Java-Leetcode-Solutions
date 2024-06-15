@@ -4,7 +4,7 @@ class Solution {
     int[] count = new int[26];
     for (final char c : s.toCharArray())
       ++count[c - 'a'];
-d
+
     final int maxFreq = Arrays.stream(count).max().getAsInt();
 
     for (int i = s.length() - 1; i >= 0; --i)
