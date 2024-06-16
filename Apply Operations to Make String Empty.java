@@ -1,4 +1,4 @@
-class Solution {llll
+class Solution {ll
   public String lastNonEmptyString(String s) {
     StringBuilder sb = new StringBuilder();
     int[] count = new int[26];
