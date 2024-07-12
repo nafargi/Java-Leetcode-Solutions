@@ -3,7 +3,7 @@ class Solution {
         int counter=0;
         for(List<String> item :items){
             if(ruleKey.equals("type") && ruleValue.equals(item.get(0))){
-              counter++; nnnnn
+              counter++; nnnn
             }
             else if(ruleKey.equals("color") && ruleValue.equals(item.get(1))){
               counter++;
