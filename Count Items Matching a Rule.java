@@ -1,6 +1,6 @@
 class Solution {
     public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
-        int counter=0;  f
+        int counter=0;  
         for(List<String> item :items){
             if(ruleKey.equals("type") && ruleValue.equals(item.get(0))){
               counter++; 
