@@ -3,6 +3,7 @@ class Solution {
         int n = grid.size();
         if (grid.get(0).get(0) == 1 || grid.get(n - 1).get(n - 1) == 1) {
             return 0;
+            
         }
         Deque<int[]> q = new ArrayDeque<>();
         int[][] dist = new int[n][n];
