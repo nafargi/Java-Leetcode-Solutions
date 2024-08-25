@@ -3,6 +3,7 @@ class Solution {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
        String stringWord1="";
        String stringWord2="";
+        
        for(String word: word1){
           stringWord1+=word;
        }
