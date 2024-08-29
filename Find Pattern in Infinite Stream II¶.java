@@ -20,7 +20,7 @@ class Solution {
         if (j == pattern.length)
           return i - j;
       }
-      // Mismatch after j matches.
+    
       else if (j > 0) {
         // Don't match lps[0..lps[j - 1]] since they will match anyway.
         j = lps[j - 1];
