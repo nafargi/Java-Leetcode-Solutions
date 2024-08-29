@@ -31,8 +31,6 @@ class Solution {
     }
   }
 
-  // Returns the lps array, where lps[i] is the length of the longest prefix of
-  // pattern[0..i] which is also a suffix of this substring.
   private int[] getLPS(int[] pattern) {
     int[] lps = new int[pattern.length];
     int j = 0;
