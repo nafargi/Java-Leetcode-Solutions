@@ -7,10 +7,10 @@
  */
 
 class Solution {
-  // Same as 3023. Find Pattern in Infinite Stream I
+
   public int findPattern(InfiniteStream stream, int[] pattern) {
     int[] lps = getLPS(pattern);
-    int i = 0;   // stream's index
+    int i = 0; 
     int j = 0;   // pattern's index
     int bit = 0; // the bit in the stream
     boolean readNext = false;
