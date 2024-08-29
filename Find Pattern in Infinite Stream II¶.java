@@ -6,7 +6,7 @@ class Solution {
     int[] lps = getLPS(pattern);
     int i = 0; 
     int j = 0;   
-    int bit = 0; // the bit in the stream
+    int bit = 0; 
     boolean readNext = false;
     while (true) {
       if (!readNext) {
