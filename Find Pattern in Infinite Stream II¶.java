@@ -5,7 +5,7 @@ class Solution {
   public int findPattern(InfiniteStream stream, int[] pattern) {
     int[] lps = getLPS(pattern);
     int i = 0; 
-    int j = 0;   // pattern's index
+    int j = 0;   
     int bit = 0; // the bit in the stream
     boolean readNext = false;
     while (true) {
