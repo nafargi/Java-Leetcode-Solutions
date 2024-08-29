@@ -6,7 +6,6 @@ class Solution {
         int[] right= new int[nums.length];
         left[0]=0;
         right[nums.length-1]=0;
-      
         for(int i =0; i<nums.length-1; ++i){
            left[i+1]=nums[i] + left[i];
         }
