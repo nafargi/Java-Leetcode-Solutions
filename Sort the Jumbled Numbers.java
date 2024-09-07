@@ -15,7 +15,6 @@ class Solution {
         }
         return ans;
     }
-
     private int f(int x) {
         if (x == 0) {
             return mapping[0];
