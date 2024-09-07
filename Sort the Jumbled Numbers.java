@@ -20,7 +20,6 @@ class Solution {
             return mapping[0];
         }
         int y = 0;
-        
         for (int k = 1; x > 0; x /= 10) {
             int v = mapping[x % 10];
             y = k * v + y;
