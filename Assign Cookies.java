@@ -7,5 +7,6 @@ class Solution {
       if (g[i] <= s[j])
         ++i;
     return i;
+
   }
 }
