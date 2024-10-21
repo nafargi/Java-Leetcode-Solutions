@@ -11,7 +11,6 @@ class Solution {
             if(binaryList[j] == '1')
             counter++;
           } 
-        
            if(k == counter){
             sum+=num;
           }
