@@ -13,7 +13,7 @@ class Solution {
           } 
            if(k == counter){
             sum+=num;
-            }
+          }
        }
       return sum; 
     }
