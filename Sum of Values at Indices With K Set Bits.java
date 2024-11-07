@@ -15,6 +15,7 @@ class Solution {
             sum+=num;
           }
        }
+        
       return sum; 
     }
 }
