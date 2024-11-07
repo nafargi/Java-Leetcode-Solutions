@@ -6,7 +6,6 @@ class Solution {
                              maxOperations(nums, 0, n - 1, nums[n - 1] + nums[n - 2], mem)),
                     maxOperations(nums, 0, n - 1, nums[0] + nums[n - 1], mem));
   }
-
   private int maxOperations(int[] nums, int i, int j, int score, Map<String, Integer> mem) {
     if (i >= j)
       return 0;
