@@ -22,7 +22,6 @@ class Solution {
     mem.put(key, Math.max(Math.max(deleteFirstTwo, deleteLastTwo), deleteFirstAndLast));
     return mem.get(key);
   }
-
   private String hash(int i, int j, int score) {
     return i + "," + j + "," + score;
   }
